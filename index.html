@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gym Complete Body Club - Himayatnagar</title>
+    <!-- Tailwind CSS High-Performance Architecture CDN Engine -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Premium Fitness & Corporate Typography Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        teko: ['Teko', 'sans-serif'],
+                        sans: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(17,17,17,0.4), rgba(17,17,17,0.9));
+        }
+        .carousel-slide {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .carousel-slide.active {
+            display: block;
+            opacity: 1;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-[#111111] text-[#fafafa] font-sans antialiased selection:bg-[#ff1e1e] selection:text-white">
+
+    <!-- Top Dynamic Announcement Ribbon -->
+    <div class="bg-[#ff1e1e] text-white text-[11px] font-semibold tracking-[0.2em] uppercase py-2.5 px-4 text-center">
+        ⚡ JOIN THE CLUB TODAY • FREE FIRST SESSION CONSULTATION WITH HEAD COACHES ⚡
+    </div>
+
+    <!-- Sticky Navigation Bar Component -->
+    <header class="sticky top-0 z-50 bg-[#111111]/90 backdrop-blur-md border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex flex-col">
+                <span class="font-teko text-3xl tracking-wider text-white leading-none">THE GYM</span>
+                <span class="text-[9px] tracking-[0.3em] text-[#ff1e1e] uppercase font-bold leading-none mt-1">Complete Body Club</span>
+            </a>
+
+            <div class="hidden md:flex items-center space-x-8 text-xs font-semibold tracking-widest uppercase text-gray-400">
+                <a href="#about" class="hover:text-white transition-colors">Why Us</a>
+                <a href="#services" class="hover:text-white transition-colors">Programs</a>
+                <a href="#nutrition" class="hover:text-white transition-colors">Nutrition</a>
+                <a href="#reviews" class="hover:text-white transition-colors">Google Reviews</a>
+                <a href="#location" class="hover:text-white transition-colors">Contact</a>
+            </div>
+
+            <a href="tel:04029305700" class="bg-[#ff1e1e] hover:bg-white hover:text-[#111111] text-white text-[11px] font-bold tracking-widest uppercase px-5 py-3 transition-all duration-300">
+                Call Studio
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Master Banner Component -->
+    <section class="relative h-[85vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="gym-hero.jpg" alt="The Gym Complete Body Club Intense Lifting" class="w-full h-full object-cover object-center" />
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-6 w-full z-10">
+            <span class="text-[#ff1e1e] font-bold text-xs tracking-[0.4em] uppercase block mb-3">Premium Fitness System</span>
+            <h1 class="font-teko text-6xl sm:text-7xl lg:text-9xl tracking-wide uppercase text-white leading-[0.9] mb-6">
+                STRONGER <br><span class="text-transparent stroke-text" style="-webkit-text-stroke: 1.5px white;">STARTS HERE</span>
+            </h1>
+            <p class="text-gray-400 text-sm sm:text-base max-w-lg mb-10 tracking-wide font-light leading-relaxed">
+                Configure your physical peak inside Himayatnagar's elite bodybuilding floor. Engineered with state-of-the-art weights, professional coaching arrays, and premium steam setups.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="tel:04029305700" class="bg-[#ff1e1e] text-white hover:bg-white hover:text-[#111111] text-xs font-bold tracking-widest uppercase px-8 py-4 transition-all duration-300">
+                    Claim Free Day Pass
+                </a>
+                <a href="#services" class="border border-white/20 text-white hover:border-white text-xs font-bold tracking-widest uppercase px-8 py-4 transition-all duration-300">
+                    View Programs Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Metric Banner Grid Row Segment -->
+    <section id="about" class="bg-[#161616] border-y border-white/5 py-12 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="font-teko text-4xl sm:text-5xl text-[#ff1e1e] tracking-wider">4.4 STARS</div>
+                <p class="text-xs text-gray-400 uppercase tracking-widest font-light mt-1">132+ Google Reviews</p>
+            </div>
+            <div>
+                <div class="font-teko text-4xl sm:text-5xl text-white tracking-wider">EXPERT</div>
+                <p class="text-xs text-gray-400 uppercase tracking-widest font-light mt-1">Coaches & Trainers Array</p>
+            </div>
+            <div>
+                <div class="font-teko text-4xl sm:text-5xl text-white tracking-wider">STEAM BATH</div>
+                <p class="text-xs text-gray-400 uppercase tracking-widest font-light mt-1">Premium Extra Facilities</p>
+            </div>
+            <div>
+                <div class="font-teko text-4xl sm:text-5xl text-white tracking-wider">STATE-OF-ART</div>
+                <p class="text-xs text-gray-400 uppercase tracking-widest font-light mt-1">Heavy Iron Setup Equipment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Grid Section Matrix -->
+    <section id="services" class="py-24 bg-[#111111]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+                <div>
+                    <span class="text-[#ff1e1e] font-bold text-xs tracking-widest uppercase block mb-2">Our Guidance. Your Goals.</span>
+                    <h2 class="font-teko text-4xl sm:text-5xl tracking-wider uppercase text-white">Elite Core Fitness Programs</h2>
+                </div>
+                <div class="h-[1px] bg-white/10 flex-grow max-w-xl hidden lg:block mb-3 mx-6"></div>
+                <p class="text-gray-400 text-xs max-w-xs font-light tracking-wide">
+                    Micro-tailored workout schedules built specifically around your current body metrics, metabolism parameters, and strength limitations.
+                </p>
+            </div>
+
+            <!-- 5-Column High-Energy Grid Configuration -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                <!-- Program Card 1 -->
+                <div class="bg-[#161616] border border-white/5 overflow-hidden group hover:border-[#ff1e1e]/40 transition-all duration-300">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="hiit.jpg" alt="HIIT Exercise Classes" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-teko text-2xl text-white tracking-wider uppercase">1. HIIT Exercise</h3>
+                        <p class="text-xs text-gray-400 font-light leading-relaxed">High-octane operational metabolic circuits engineered to burn fat reserves and supercharge muscular stamina levels fast.</p>
+                    </div>
+                </div>
+
+                <!-- Program Card 2 -->
+                <div class="bg-[#161616] border border-white/5 overflow-hidden group hover:border-[#ff1e1e]/40 transition-all duration-300">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="aerobics.jpg" alt="Aerobics Training Session" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-teko text-2xl text-white tracking-wider uppercase">2. Aerobics Flow</h3>
+                        <p class="text-xs text-gray-400 font-light leading-relaxed">High-energy rhythm-coordinated aerobic sessions built to maximize cardiovascular efficiency and agility footprints.</p>
+                    </div>
+                </div>
+
+                <!-- Program Card 3 -->
+                <div class="bg-[#161616] border border-white/5 overflow-hidden group hover:border-[#ff1e1e]/40 transition-all duration-300">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="crossfit.jpg" alt="Crossfit Training Facility" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-teko text-2xl text-white tracking-wider uppercase">3. CrossFit Box</h3>
+                        <p class="text-xs text-gray-400 font-light leading-relaxed">Heavy functional tire flips, raw power lifting sets, and Olympic athletic conditioning setups for maximum strength.</p>
+                    </div>
+                </div>
+
+                <!-- Program Card 4 -->
+                <div class="bg-[#161616] border border-white/5 overflow-hidden group hover:border-[#ff1e1e]/40 transition-all duration-300">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="personal-trainer.jpg" alt="Personal Training Systems" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-teko text-2xl text-white tracking-wider uppercase">4. Personal Coaching</h3>
+                        <p class="text-xs text-gray-400 font-light leading-relaxed">1-on-1 private monitoring lines with dedicated coaches like Yousuf to track form mechanics and target milestones safely.</p>
+                    </div>
+                </div>
+
+                <!-- Program Card 5 -->
+                <div class="bg-[#161616] border border-white/5 overflow-hidden group hover:border-[#ff1e1e]/40 transition-all duration-300 md:col-span-2 lg:col-span-1">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="weight-training.jpg" alt="Weight Training Bodybuilding Bench" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-teko text-2xl text-white tracking-wider uppercase">5. Weight Training</h3>
+                        <p class="text-xs text-gray-400 font-light leading-relaxed">Heavy raw iron dumbbell matrix arrays and precision bar rack structural lines for hypertrophy and muscle building.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Strategy Component Panel Section -->
+    <section id="nutrition" class="py-20 bg-[#161616] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-[#ff1e1e] font-bold text-xs tracking-widest uppercase block">Precision Lifestyle Tracking</span>
+                    <h2 class="font-teko text-4xl sm:text-5xl tracking-wide uppercase text-white leading-none">
+                        6. Certified Nutrition Consulting
+                    </h2>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed tracking-wide">
+                        Workouts alone are only half the battle. Our certified gym nutrition consulting system designs customized nutritional roadmaps based on your metabolic output parameters.
+                    </p>
+                    
+                    <div class="space-y-4 border-l-2 border-[#ff1e1e] pl-4 mt-6">
+                        <div>
+                            <h4 class="text-white text-xs font-semibold tracking-wider uppercase">✦ Macro-Configured Blueprints</h4>
+                            <p class="text-[11px] text-gray-400 font-light mt-0.5">Custom protein, carb, and clean lipid distributions optimized for fast mass building or fat reduction models.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-white text-xs font-semibold tracking-wider uppercase">✦ Real Food Integration</h4>
+                            <p class="text-[11px] text-gray-400 font-light mt-0.5">Practical, nutrient-dense home menus built completely free of complex synthetic dependencies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="relative p-2 bg-[#111111] border border-white/5 rounded-2xl shadow-xl overflow-hidden">
+                        <img src="nutrition.jpg" alt="Premium Fitness Clean Meal Prep Setup" class="w-full h-auto object-cover rounded-xl" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS SLIDER CAROUSEL (Cycled Automatically Every 5 Seconds via Core JavaScript) -->
+    <section id="reviews" class="py-24 bg-[#111111]">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="space-y-3 mb-12">
+                <span class="text-[#ff1e1e] font-bold text-xs tracking-widest uppercase block">Verified Social Proof Dashboard</span>
+                <h2 class="font-teko text-4xl sm:text-5xl tracking-wider uppercase text-white">What Our Members Say</h2>
+                <div class="w-12 h-[2px] bg-[#ff1e1e] mx-auto mt-2"></div>
+            </div>
+
+            <!-- Responsive Viewport Carousel Container Box -->
+            <div class="max-w-xl mx-auto bg-[#161616] p-4 sm:p-6 border border-white/5 rounded-2xl shadow-lg flex items-center justify-center min-h-[220px]">
+                <img src="gym-review1.png" class="carousel-slide active max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Mohd Mustafa" />
+                <img src="gym-review2.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot dilip yadav" />
+                <img src="gym-review3.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Arun Daniel B" />
+                <img src="gym-review4.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Prasad Medakkar" />
+                <img src="gym-review5.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Md Junaid Ali" />
+                <img src="gym-review6.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Aman Dodhiya" />
+                <img src="gym-review7.png" class="carousel-slide max-w-full h-auto object-contain rounded-xl" alt="The Gym Google Review Screenshot Lokeshyadav Lokesh" />
+            </div>
+            
+            <p class="text-[10px] text-gray-500 mt-4 tracking-widest uppercase font-mono">➔ Live Dashboard Tracking Rotates Every 5 Seconds</p>
+        </div>
+    </section>
+
+    <!-- Final Operational Mapping Footer & Gym Location Details -->
+    <footer id="location" class="bg-[#0b0b0b] text-gray-400 pt-20 pb-10 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/5 pb-16 mb-10">
+            
+            <!-- Col 1: Brand System System Data -->
+            <div class="space-y-4">
+                <div class="flex flex-col">
+                    <span class="font-teko text-3xl tracking-wider text-white leading-none">THE GYM</span>
+                    <span class="text-[9px] tracking-[0.3em] text-[#ff1e1e] uppercase font-bold mt-1 leading-none">Complete Body Club</span>
+                </div>
+                <p class="text-xs text-gray-500 font-light leading-relaxed max-w-xs">
+                    Engineering high-performance physical transformations across Himayatnagar through micro-tailored weights protocols, specialized CrossFit, and certified custom nutrition tracking.
+                </p>
+            </div>
+
+            <!-- Col 2: Real Gym Location Details Coordinates -->
+            <div class="space-y-3">
+                <h4 class="text-white text-xs font-semibold tracking-widest uppercase">Studio Coordinates</h4>
+                <p class="text-xs text-gray-400 font-light leading-relaxed">
+                    📍 1st Floor, Brownbear Bakery, 3-6-270/2, Opposite Telugu Academy, Himayatnagar, Hyderabad, Telangana 500029
+                </p>
+                <div class="pt-2 text-xs text-gray-400">
+                    📞 Phone Line Support: <a href="tel:04029305700" class="text-white hover:text-[#ff1e1e] underline transition-colors">040 2930 5700</a>
+                </div>
+            </div>
+
+            <!-- Col 3: Operational Hours Schedule Timeline -->
+            <div class="space-y-3">
+                <h4 class="text-white text-xs font-semibold tracking-widest uppercase">Operational Window</h4>
+                <p class="text-xs text-gray-400 font-light leading-relaxed">
+                    📆 Monday – Sunday Hours: <br>
+                    <span class="text-white font-medium">Morning Shift: 6:00 AM – 11:00 AM</span> <br>
+                    <span class="text-white font-medium">Evening Shift: 4:00 PM – 10:00 PM</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-600 font-light">
+            <p>© 2026 THE GYM COMPLETE BODY CLUB. All Rights Reserved.</p>
+            <p class="mt-2 sm:mt-0 tracking-wide">Engineered & Optimized by Teja AI Web Architect Systems</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Engine Handling the 5-Second Automated Image Swap Loop -->
+    <script>
+        let currentSlideIndex = 0;
+        const slidesArray = document.querySelectorAll('.carousel-slide');
+        
+        function rotateGymReviews() {
+            if (slidesArray.length > 0) {
+                // Clear active visible layer state class smoothly
+                slidesArray[currentSlideIndex].classList.remove('active');
+                
+                // Advance positional frame tracker counter safely across array indices
+                currentSlideIndex = (currentSlideIndex + 1) % slidesArray.length;
+                
+                // Inject active display class properties onto the next screenshot slide element
+                slidesArray[currentSlideIndex].classList.add('active');
+            }
+        }
+        
+        // Triggers the execution rotation loop on a strict 5000ms schedule intervals
+        setInterval(rotateGymReviews, 5000);
+    </script>
+</body>
+  </html>
+  
